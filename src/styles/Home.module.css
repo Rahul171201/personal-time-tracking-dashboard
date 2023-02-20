@@ -1,0 +1,21 @@
+.mainWrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(20vw, 1fr));
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+  background-color: red;
+}
+
+.profileCard {
+  grid-row: 1 / -1;
+  background-color: white;
+}
