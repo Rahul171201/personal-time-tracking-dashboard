@@ -1,4 +1,51 @@
 .cardWrapper {
   background-color: yellow;
   border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contentWrapper {
+  background-color: hsl(235, 46%, 20%);
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.contentWrapper:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.middleSection {
+  font-size: 4rem;
+}
+
+.bottomSection {
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+@media (max-width: 950px) {
+  .cardWrapper {
+    width: 100%;
+  }
+  .contentWrapper {
+    gap: 20px;
+  }
 }

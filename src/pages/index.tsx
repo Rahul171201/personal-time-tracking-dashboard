@@ -27,12 +27,12 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <CardComponent id="work" color="hsl(15, 100%, 70%)"></CardComponent>
-          <CardComponent id="play" color="hsl(195, 74%, 62%)"></CardComponent>
-          <CardComponent id="study" color="hsl(348, 100%, 68%)"></CardComponent>
-          <CardComponent id="exercise" color="hsl(145, 58%, 55%)"></CardComponent>
-          <CardComponent id="social" color="hsl(264, 64%, 52%)"></CardComponent>
-          <CardComponent id="self-care" color="hsl(43, 84%, 65%)"></CardComponent>
+          <CardComponent id="work" color="hsl(15, 100%, 70%)" src="/icon-work.svg" title="Work" currentHours="54" previousHours="4"></CardComponent>
+          <CardComponent id="play" color="hsl(195, 74%, 62%)" src="/icon-play.svg" title="Play" currentHours="54" previousHours="4"></CardComponent>
+          <CardComponent id="study" color="hsl(348, 100%, 68%)" src="/icon-study.svg" title="Study" currentHours="54" previousHours="4"></CardComponent>
+          <CardComponent id="exercise" color="hsl(145, 58%, 55%)" src="/icon-exercise.svg" title="Exercise" currentHours="54" previousHours="4"></CardComponent>
+          <CardComponent id="social" color="hsl(264, 64%, 52%)" src="/icon-social.svg" title="Social" currentHours="54" previousHours="4"></CardComponent>
+          <CardComponent id="self-care" color="hsl(43, 84%, 65%)" src="/icon-self-care.svg" title="Self Care" currentHours="54" previousHours="4"></CardComponent>
         </div>
     </div>
   )
